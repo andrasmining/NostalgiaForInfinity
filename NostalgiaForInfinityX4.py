@@ -155,10 +155,10 @@ class NostalgiaForInfinityX4(IStrategy):
   short_high_profit_mode_name = "short_hp"
   short_rapid_mode_name = "short_rapid"
 
-  is_futures_mode = False
-  futures_mode_leverage = 3.0
-  futures_mode_leverage_rebuy_mode = 3.0
-  futures_mode_leverage_grind_mode = 3.0
+  is_futures_mode = True
+  futures_mode_leverage = 10.0
+  futures_mode_leverage_rebuy_mode = 10.0
+  futures_mode_leverage_grind_mode = 10.0
 
   # Stop thresholds. 0: Doom Bull, 1: Doom Bear, 2: u_e Bull, 3: u_e Bear, 4: u_e mins Bull, 5: u_e mins Bear.
   # 6: u_e ema % Bull, 7: u_e ema % Bear, 8: u_e RSI diff Bull, 9: u_e RSI diff Bear.
